@@ -1,5 +1,5 @@
-import ReferralForm from "./components/ReferralForm"
-import ReferralTableList from "./components/ReferralTableList";
+import ReferralForm from "@/ReferralForm"
+import ReferralTableList from "@/ReferralTableList";
 
 function App() {
   return (
