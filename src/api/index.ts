@@ -1,7 +1,7 @@
 import axios from "axios";
 import { CreateReferralRequest, GetReferralsData, GetReferralsResponse } from "../types";
 
-const endpointURL = "http://localhost:3000/api/";
+const endpointURL = "https://emapta-sample-api.onrender.com/api/";
 const axiosInstance = axios.create({ baseURL: endpointURL });
 
 export const fetchReferrals = async (): Promise<GetReferralsResponse> => {
